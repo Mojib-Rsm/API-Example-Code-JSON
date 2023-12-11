@@ -1,11 +1,10 @@
 
 {
   type : "post",
-  url : "http://bulksmsbd.net/api/smsapi",
+  url : "http://Oftern.com/api/smsapi",
   data : {
     "api_key" : "{your api key}",
-    "senderid" : "{sender id}",
-    "number" : "88016xxxxxxxx,88019xxxxxxxx",
+    "number" : "016xxxxxxxx,019xxxxxxxx",
     "message" : "{your test sms content}"
   }
 }
