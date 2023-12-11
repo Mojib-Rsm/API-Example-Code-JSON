@@ -1,0 +1,18 @@
+{
+  type : "post",
+  url : "http://oftern.com/api/smsapimany",
+  data : {
+    "api_key" : "{your api key}",
+    "messages" :
+            [
+                  {
+                    "to" : "016xxxxxxxx",
+                    "message" : "SMS text 1"
+                  },
+                  {
+                    "to" : "019xxxxxxxx",
+                    "message" : "SMS Text 2"
+                  }
+            ]
+  }
+}
