@@ -1,0 +1,11 @@
+
+{
+  type : "post",
+  url : "http://bulksmsbd.net/api/smsapi",
+  data : {
+    "api_key" : "{your api key}",
+    "senderid" : "{sender id}",
+    "number" : "88016xxxxxxxx,88019xxxxxxxx",
+    "message" : "{your test sms content}"
+  }
+}
